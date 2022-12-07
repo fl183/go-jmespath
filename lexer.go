@@ -161,7 +161,7 @@ loop:
 				length:    1,
 			}
 			tokens = append(tokens, t)
-		} else if r == (r >= '0' && r <= '9') {
+		} else if r >= '0' && r <= '9' {
 			t := lexer.consumeNumber()
 			tokens = append(tokens, t)
 		} else if r == '[' {
