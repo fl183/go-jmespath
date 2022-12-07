@@ -1,4 +1,4 @@
-module github.com/jmespath/go-jmespath
+module github.com/fl183/go-jmespath
 
 go 1.14
 
