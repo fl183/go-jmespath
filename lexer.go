@@ -105,7 +105,7 @@ const identifierStartBits uint64 = 576460745995190270
 var identifierTrailingBits = [2]uint64{287948901175001088, 576460745995190270}
 
 var whiteSpace = map[rune]bool{
-	' ': true, '\t': true, '\n': true, '\r': true,
+	' ': true, '\t': true, '\n': true, '\r': true, '-': true
 }
 
 func (t token) String() string {
